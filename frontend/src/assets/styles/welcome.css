@@ -1,0 +1,185 @@
+
+
+.hero-section {
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background: #eaf6ff;
+    padding: 0 20px;
+}
+
+.welcome-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+    pointer-events: none;
+    user-select: none;
+    opacity: 0.92;
+    transition: opacity 0.5s;
+}
+
+.welcome-content {
+    position: relative;
+    z-index: 2;
+    background: rgba(255,255,255,0.85);
+    border-radius: 28px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+    padding: 56px 40px 44px 40px;
+    max-width: 520px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    animation: fadeIn 1.2s cubic-bezier(.39,.575,.56,1.000);
+    border: 1.5px solid #e0eaff;
+    backdrop-filter: blur(6px);
+}
+
+.beautiful-glass {
+    background: rgba(255,255,255,0.82);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18), 0 1.5px 8px 0 rgba(79,140,255,0.08);
+    border: 1.5px solid #d0e6ff;
+    backdrop-filter: blur(10px);
+}
+
+
+.welcome-title {
+    font-size: 2.7rem;
+    font-weight: 800;
+    color: #1a237e;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: -1px;
+    text-shadow: 0 2px 8px rgba(79,140,255,0.08);
+}
+.welcome-title span {
+    color: var(--main, #4f8cff);
+    text-shadow: 0 2px 8px rgba(79,140,255,0.13);
+}
+
+
+.welcome-subtitle {
+    font-size: 1.18rem;
+    color: #3a3a3a;
+    text-align: center;
+    margin: 0 0 10px 0;
+    line-height: 1.7;
+    font-weight: 500;
+}
+.welcome-subtitle span {
+    color: var(--main, #4f8cff);
+    font-weight: 700;
+}
+.welcome-subtitle .highlight {
+    color: #2563eb;
+    font-weight: 700;
+    font-size: 1.08em;
+    letter-spacing: 0.5px;
+}
+
+
+.welcome-actions {
+    display: flex;
+    gap: 22px;
+    margin-top: 10px;
+}
+
+
+.welcome-actions .login-btn,
+.welcome-actions .register-btn {
+    padding: 13px 36px;
+    font-size: 1.13rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(79,140,255,0.09);
+    outline: none;
+}
+.welcome-actions .login-btn {
+    background: var(--main, #4f8cff);
+    color: #fff;
+    border: 1.5px solid var(--main, #4f8cff);
+}
+.welcome-actions .login-btn:hover {
+    background: #2563eb;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(79,140,255,0.18);
+}
+.welcome-actions .register-btn {
+    background: #fff;
+    color: var(--main, #4f8cff);
+    border: 1.5px solid var(--main, #4f8cff);
+}
+.welcome-actions .register-btn:hover {
+    background: var(--main, #4f8cff);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(79,140,255,0.18);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(40px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@media all and (max-width:768px) {
+    .hero-section  {
+        padding: 0 2vw;
+    }
+    .welcome-bg-svg {
+        width: 100vw;
+        height: 100vh;
+    }
+    .welcome-content {
+        padding: 28px 4vw 22px 4vw;
+        max-width: 99vw;
+        border-radius: 18px;
+    }
+    .welcome-title {
+        font-size: 1.3rem;
+    }
+    .welcome-subtitle {
+        font-size: 0.98rem;
+    }
+    .welcome-actions .login-btn,
+    .welcome-actions .register-btn {
+        padding: 10px 10px;
+        font-size: 0.98rem;
+    }
+}
+
+@media all and (max-width:768px) {
+    .hero-section  {
+        padding: 0 15px;
+        padding-right: 25px;
+    }
+    .hero-section h3 {
+        font-size: 25px;
+    }
+    .hero-section h1 {
+        font-size: 35px;
+    }
+    .hero-section div button {
+        padding: 10px 15px;
+    }
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;flex-direction: column;gap: 25px;
+}
+main h3{
+    max-width: 500px;
+    width: 100%;text-align: center;
+}

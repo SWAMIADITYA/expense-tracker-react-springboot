@@ -1,0 +1,41 @@
+# =========================
+# 🌱 Spring Boot / Java
+# =========================
+target/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/
+.settings/
+.classpath
+.project
+
+# =========================
+# ⚛️ React / Node.js
+# =========================
+node_modules/
+build/
+dist/
+
+# =========================
+# 🛠 IDE / Editor Settings
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# 🖥 OS-specific files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🔑 Environment & Config
+# =========================
+.env
+application.properties
