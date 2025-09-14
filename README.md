@@ -28,31 +28,24 @@ myWallet helps users manage income and expenses, track spending habits, and visu
 
 ## 📸 Screenshots  
 
-> 📌 Replace these placeholder images with real screenshots from your app.
-
-### 🔑 Login Page  
-![Login Page](https://via.placeholder.com/900x450?text=Login+Page+Screenshot)
-
 <div align="center">
 
-<img src="./screenshots/01_welcome_page.png.png" width="420" alt="Landing Page" />
-<img src="./screenshots/02_login.png.png" width="420" alt="Login Page" />
-<img src="./screenshots/03_signup.png.png" width="420" alt="Signup Page" />
-<img src="./screenshots/04_dashboard.png.png" width="420" alt="Dashboard Overview" />
-<img src="./screenshots/05_transactions.png.png" width="420" alt="Add Transaction" />
-<img src="./screenshots/06_new_transaction.png.png" width="420" alt="Edit Transaction" />
-<img src="./screenshots/07_saved_transactions.png.png" width="420" alt="saved Transaction" />
-<img src="./screenshots/08_statistics.png.png" width="420" alt="graph" />
-<img src="./screenshots/09_settings.png.png" width="420" alt="setting" />
-<img src="./screenshots/10_admin_stuff.png.png" width="420" alt="admin stuff" />
-<img src="./screenshots/11_users.png.png" width="420" alt="users" />
-<img src="./screenshots/12_categories.png.png" width="420" alt="categories" />
-<img src="./screenshots/13_new_category.png.png" width="420" alt="new categories" />
+<img src="./screenshots/01_welcome_page.png.png"  alt="Landing Page" />
+<img src="./screenshots/02_login.png.png" alt="Login Page" />
+<img src="./screenshots/03_signup.png.png"  alt="Signup Page" />
+<img src="./screenshots/04_dashboard.png.png"  alt="Dashboard Overview" />
+<img src="./screenshots/05_transactions.png.png" alt="Add Transaction" />
+<img src="./screenshots/06_new_transaction.png.png"  alt="Edit Transaction" />
+<img src="./screenshots/07_saved_transactions.png.png" alt="saved Transaction" />
+<img src="./screenshots/08_statistics.png.png"  alt="graph" />
+<img src="./screenshots/09_settings.png.png"  alt="setting" />
+<img src="./screenshots/10_admin_stuff.png.png"  alt="admin stuff" />
+<img src="./screenshots/11_users.png.png"  alt="users" />
+<img src="./screenshots/12_categories.png.png"  alt="categories" />
+<img src="./screenshots/13_new_category.png.png" alt="new categories" />
 
 </div>
 
-### 📊 Dashboard  
-![Dashboard](https://via.placeholder.com/900x450?text=Dashboard+Screenshot)
 
 ---
 
